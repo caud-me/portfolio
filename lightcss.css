@@ -54,6 +54,10 @@ nav {
   align-items: left;
 }
 
+button.nav-toggle {
+  color: black;
+}
+
 nav ul {
   list-style: none;
   padding: 1rem 0;
@@ -88,7 +92,7 @@ nav ul {
 
   nav {
     padding: 0 var(--spacing);
-    background-color: black;
+    background-color: var(--offwhite);
   }
 }
 
@@ -97,7 +101,7 @@ nav ul {
   nav {
     -webkit-backdrop-filter: blur(50px);
     backdrop-filter: blur(25px);
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(220, 220, 220, 0.5);
   }
 }
 
